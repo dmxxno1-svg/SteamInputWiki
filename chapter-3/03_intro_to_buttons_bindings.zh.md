@@ -1,4 +1,5 @@
 ```markdown
+<<<<<<< Updated upstream
 # 第 03 章：按钮与绑定简介
 
 ## 介绍
@@ -62,5 +63,70 @@
 - SIAPI 游戏内动作（SIAPI In-Game Actions）
 
 这些将在本章稍后部分更详细地讨论。
+=======
+# 第03章：按钮与绑定简介
+
+## 介绍
+
+“按钮”是最简单的二元（开/关）输入设备；你按下它，它就会告诉你正在控制的对象该做什么。
+
+在触控板、触摸屏、屏幕菜单等普及的今天，按钮也可以是“虚拟”的；例如把触控板上的某一区域指定为一个按钮。它的工作方式像按钮，但并不是实体按键——你是“触摸”该区域，而不是“按下”实体按键。
+
+“绑定”是指当按钮被按下时会发生的动作。
+
+## 哪些物理按键可以分配绑定？
+
+下面是你可能熟悉的物理按键，有些按键可以追溯到游戏早期，也有些是较新的增加项。
+
+* 单个 A、B、X、Y（或索尼的等价键）——见按钮面板输入样式的绑定位置
+* 十字键（D-Pad）的各个方向——见方向键输入样式的绑定位置
+* 左/右摇杆按下（Stick Click），作为各自输入样式中的“Click Action”
+* 左/右触控板点击（Steam 控制器触控板），作为各自输入样式中的“Click Action”
+* 左/右/独立触控板点击（索尼触控板），作为各自输入样式中的“Click Action”
+* Start / Forward / +
+* Select / Back / -
+* Capture（任天堂 Switch Pro 控制器）
+* 左/右肩（Bumper）
+* 左/右触发器的完全触发（Trigger Full Pull）——适用于只有数字触发器的手柄，或模拟触发器的行程末端
+* 麦克风静音（Sony DualSense）
+* 左右握把按钮（Steam 控制器）
+* Xbox Elite Series 2 的 1-4 号桨板（Paddles），在控制器上启用扩展支持并加载空白配置时可用
+
+注意：你不能重新绑定控制器上的 Guide / Home / System 按钮，Steam 会保留该键用于访问 Steam 功能或 Guide Chord 配置。
+
+## 哪些“虚拟按钮”可以被绑定？
+
+这些不是传统的物理按键，而是可以用来触发绑定的软件事件。例如在 Steam Input 中使用触控板时，简单的触摸就可以作为一个虚拟按钮来激活绑定。
+
+* 当把“按钮面板（Button Pad）”输入样式应用到不常见的设备（如触控板或摇杆）时，会产生虚拟的 A、B、X、Y（或索尼等价）按钮
+* 当把“方向键（Directional Pad）”输入样式应用到不常见的设备时，会产生虚拟的十字键方向
+  * 在“方向滑动（Directional Swipe）”输入样式中也会使用该方式
+* “触摸绑定（Touch Binding）”，通常在将输入样式应用到触控板时出现
+  * 在“单按钮（Single Button）”输入样式中称为“触控板触摸（Trackpad Touch）”
+* “双击绑定（Double Tap Binding）”，通常在将输入样式应用到触控板时出现
+* “外环绑定（Outer Ring Binding）”，在若干可应用到 XY 坐标输入设备的输入样式中可见
+* 触摸菜单（Touch Menu）中的按钮 1-16
+  * 在热键栏菜单（Hotbar Menu）中也可见
+* 环形菜单（Radial Menu）中的按钮 1-20
+* 环心/未选中按钮（Center/Unselected Button），见环形菜单输入样式
+* 滚轮前进/后退绑定（Scroll Forward/Backward Binding），见滚轮输入样式
+* 滚轮列表选项 1-10，见滚轮输入样式
+* 陀螺左右倾斜绑定（Gyro Lean Left/Right Binding），仅对陀螺设备可用
+* “始终开启绑定（Always On Binding）”，在配置概览页上显示为靠左的无限符号，表示始终有效
+* 左/右触发器软触发（Trigger Soft Pull）——适用于模拟触发器，使用用户定义的阈值，当触发器超过阈值时视为逻辑点击
+* 力敏电阻（Force Sensing Resistor）——这是一种物理设备但没有物理扣动感；它使用用户设定的压力阈值作为逻辑点击
+
+## 可以分配给按钮的绑定类型有哪些？
+
+有 5 类绑定：
+
+* 鼠标按键（Mouse Buttons）
+* 键盘按键（Keyboard Buttons）
+* 手柄按键（Gamepad Buttons）
+* Steam/系统操作（Steam/System Actions）
+* SIAPI 游戏内动作（SIAPI In-Game Actions）
+
+这些内容将在本章后续部分中更详细地介绍。
+>>>>>>> Stashed changes
 
 ```
